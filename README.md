@@ -18,16 +18,10 @@ He wanted to take a closer look at June and December information about temperatu
 The minimum temp in June is 64 F while in Dec it is a chilly 56! We would need to see about wetsuits for those chillier days.
 The maximum temp doesn't show such a wide difference in temperature at 86 for June and 83 for December.
 
-3) Another interesting statistic is the 25%, 50% and 75% temperature differences. This leads us back to point 1 with the 4 degree difference, which isn't so bad.
-
-4) The mentorship elibility csv rWhat eally highlighted the remarkable drop in employess from 1952 to 1965. Bobby noticed the relatively low number on the count(*) of this output so created the same output with the 1952 year as input and the difference in number of employees retiring born in the year 1952 vs those born in the year 1965 is quite astounding, those born in 1952 who are eligible for retirement count is 16,981 vs those born in 1965 is 1,549.  That's more than 15 X's the employees who are eligible for retirement who were born in 1952 vs that of 1965. It is a good thing the are starting a mentorship program, but they may want to try something with those born  BEFORE 1965.
-
-![Pewlett_Hackard_Analysis](./ret_1965.png)
-![Pewlett_Hackard_Analysis](./ret_1952.png)
+3) Another interesting statistic is the 25%, 50% and 75% temperature differences. This leads us back to point 1 with the 4 degree difference, which isn't so bad. This makes me wonder about the other statistics for weather that make a big difference, rain!
 
 ## PH Analysis Summary:
-
-As noted above in the analysis that has been completed, a closer look should be taken at retirement elibility as the numbers of those who may retire in the next few years is quite staggering:
+The actual temperature differences between June and December are surprisingly not so vast as they may be in for example Chicago! But another important element to temperature is percipitation.
 
 ### Bobby ran a few different queries to further the analysis as an introduction as to what needs to be looked at:
 Using the SQL for creating the mentorship_eligibilty.csv which was filtering on 1965, Bobby ran the same for 1952, 1953, and 1954;
