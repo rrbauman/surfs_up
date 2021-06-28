@@ -33,18 +33,18 @@ In looking at this output we can note the following:
 1) Overall, the rain patterns also don't seem to deviate much from June to December. Overall, there isn't much percipitation.
 2) The minimum and maximum is where we see the largest differences at 4.4 inches for June and 6.42 for December, but that also does not tell us much.
 
-In summary, I think we may need to look at a closer look at a few other factors:
+In summary, I think we may need to look at a closer look at a few other factors that may have an impact:
 - Ocean water temperatures for the same periods
+- Wind speed and temperature
 - Tourism and what dates are more popular; perhaps at just picking the ranges for 'months' perhaps we should look at periods, such as holiday time in December when people tend to travel from mid-December through mid-January.
 
 
 
 #### Resources
-- current_emp.csv
-- emp_info.csv
-- manager_info
-
-- Software: PostgreSQL
+- panda
+- python
+- sqlite
+- jupyter notebook
 
 # Challenge Overview
 There were definitely parts of the challenge that were not clear which resulted in me wasting time on irrelevent points. Otherwise, it was a fun challenge - like a puzzle you are both creating and solving at the same time.
