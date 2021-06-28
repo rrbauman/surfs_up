@@ -2,28 +2,14 @@
 
 ## Surf's Up Analysis Overview:
 
-### Pewlett Hackard has been working with Bobby in conducting an over-view of their retiring employees or to be exact, those who are eligible for retirment. To that end, three csv files were created from some originally provided data of ALL employees and the following tables were created for the first part of the analysis during the initial stages of the project:
+### W. Avy has asked to do some additional analysis from what has already been delivered; 
+He wanted to take a closer look at June and December information about temperature trends before opening the surf shop. Specifically, he wants temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round.
 
-- current_emp.csv which showed ALL current employees elibible for retirement
-- emp_info.csv which included information about those employees salaries
-- manager_inf which identified which managers are due for retirement
-
-
-Because Bobby impressed the PH senior management with the 3 original output files, they wanted him to do 2 additional analysis:
-1) Three queries were requested on some more of the general information about ALL the employees who are retiring: 
-- A query was written for employees who are born between January 1, 1952 and December 31, 1955: retirement_titles.csv
-- A query was written that contains the employee number, first and last name, and most recent title: unique_titles.csv.
-- A query was written to create a table with the number of titles filled by employees who are retiring: retiring_titles.csv. 
-
-2) The second request was for a more targeted program: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. For this, the data was based on the following; those employees who were born in 1965, a few years away from the eligibility age. PH would like to capitalize on this group's knowledge base and use it to crate a training or mentorship program. This will also help PH keep a closer eye on those employees whose retirement is approaching.  Bobby created one output file for this second piece:
-
-- mentorship_eligibilty.csv
-
-## PH Analysis Results:
+## Surf's Up Results:
 
 ### There was interesting information that was gathered that may need some further analysis to fully understand:
 
-1) When you look at the retirement_titles.csv count vs the over-all employees.csv count, it shows an alarming number of employees are eligible to leave the company as retirement approaches or is reached.  While there are some differences on the data-points of these two tables, a closer look needs to be taken to fully understand the situation with their employees.
+1) When you look at June vs December mean temperature, it shows 
 
 ![Pewlett_Hackard_Analysis](./ret_titles.png)
 ![Pewlett_Hackard_Analysis](./employee_count.png)
