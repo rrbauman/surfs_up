@@ -9,10 +9,10 @@ He wanted to take a closer look at June and December information about temperatu
 
 ### There was interesting information that was gathered that may need some further analysis to fully understand:
 
-1) When you look at June vs December mean temperature, it shows 
+1) When you look at June vs December mean temperature, it isn't such a large difference, only about 3 degrees.  But this doesn't seem to be a measure of the day to day changes in temp and those seasons:
 
-![Pewlett_Hackard_Analysis](./ret_titles.png)
-![Pewlett_Hackard_Analysis](./employee_count.png)
+![surfs_up](./junetemp.png)
+![surfs_up](./dectemp.png)
 
 2) The second file results, unique_titles, did help understand the true number of employees who are reaching retirement eligibility.  This count output brought the original number to 90,398 which nearly 40,000 less than we were gathering from the unfiltered retirement_titles.  While this is a bit more reassuring, it is still a very large number of employees retiring.
 
