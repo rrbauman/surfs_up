@@ -23,30 +23,21 @@ The maximum temp doesn't show such a wide difference in temperature at 86 for Ju
 ## PH Analysis Summary:
 The actual temperature differences between June and December are surprisingly not so vast as they may be in for example Chicago! But another important element to temperature is percipitation.
 
-Two additional queries were run to show the rain for the same months of June and December
+Two additional queries were run to show the rain for the same months of June and December:
 
 ![surfs_up](./juneprc.png)
 ![surfs_up](./decprc.png)
 
 In looking at this output we can note the following:
 
-1) 
+1) Overall, the rain patterns also don't seem to deviate much from June to December. Overall, there isn't much percipitation.
+2) The minimum and maximum is where we see the largest differences at 4.4 inches for June and 6.42 for December, but that also does not tell us much.
 
-### Bobby ran a few different queries to further the analysis as an introduction as to what needs to be looked at:
-Using the SQL for creating the mentorship_eligibilty.csv which was filtering on 1965, Bobby ran the same for 1952, 1953, and 1954;
+In summary, I think we may need to look at a closer look at a few other factors:
+- Ocean water temperatures for the same periods
+- Tourism and what dates are more popular; perhaps at just picking the ranges for 'months' perhaps we should look at periods, such as holiday time in December when people tend to travel from mid-December through mid-January.
 
-1) Bobby knows there is an underlying question: How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
-To answer this, Bobby refactored the SQL he used for the 1965 group and changed the range from January 1st of 1952 through December 31st of 1955, and came up with this number of employees who will be elible for retirement and the number was 72,458 as shown in below output:
-
-![Pewlett_Hackard_Analysis](./ret_silver.png)
-
-2) The above information has made senior management concerned if there are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-
-By looking at difference in the retirement eligible vs those not eligible, there does seem to be a chance to take advantage of the large number of employees who have years of experience at PH and train and mentor the younger employees.  Bobby thinks the 1965 age is too low and perhaps a more aggressive mentorship program could be started for those in the immediate range of Jan 1, 1952 through Dec 31, 1955. 
-
-![Pewlett_Hackard_Analysis](./ret_silver.png)
-![Pewlett_Hackard_Analysis](./ret_notsilver.png)
 
 #### Resources
 - current_emp.csv
