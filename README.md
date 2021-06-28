@@ -21,12 +21,16 @@ The maximum temp doesn't show such a wide difference in temperature at 86 for Ju
 3) Another interesting statistic is the 25%, 50% and 75% temperature differences. This leads us back to point 1 with the 4 degree difference, which isn't so bad. This makes me wonder about the other statistics for weather that make a big difference, rain!
 
 ## PH Analysis Summary:
-The actual temperature differences between June and December are surprisingly not so vast as they may be in for example Chicago! But another important element to temperature is percipitation.:
+The actual temperature differences between June and December are surprisingly not so vast as they may be in for example Chicago! But another important element to temperature is percipitation.
 
 Two additional queries were run to show the rain for the same months of June and December
 
 ![surfs_up](./juneprc.png)
 ![surfs_up](./decprc.png)
+
+In looking at this output we can note the following:
+
+1) 
 
 ### Bobby ran a few different queries to further the analysis as an introduction as to what needs to be looked at:
 Using the SQL for creating the mentorship_eligibilty.csv which was filtering on 1965, Bobby ran the same for 1952, 1953, and 1954;
